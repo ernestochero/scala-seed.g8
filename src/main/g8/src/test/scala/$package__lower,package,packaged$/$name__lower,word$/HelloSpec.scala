@@ -1,4 +1,5 @@
-package example
+package $package;format="lower,package"$
+package $name;format="lower,word"$
 
 import org.scalatest.flatspec.AnyFlatSpec
 import org.scalatest.matchers.should.Matchers

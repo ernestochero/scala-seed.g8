@@ -1,1 +1,26 @@
+.bloop/
+.dotty-ide*
+*.class
+*.log
+
+# idea
+.idea
+.idea_modules
+
+# scala files
+*.worksheet.sc
+
+# sbt specific
+dist/*
 target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+# scala-IDE specific
+.scala_dependencies
+
+# metals
+.metals/
+metals.sbt
